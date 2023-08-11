@@ -53,11 +53,11 @@ public class Account {
     }
 
     public void deposit(Double balance){
-        this.balance = balance;
+        this.balance += balance;
     }
     
     public void withdraw(Double balance){
-        this.balance = balance;
+        this.balance -= balance;
     }
-    
+
 }
